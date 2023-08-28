@@ -22,13 +22,17 @@ async def main():
 									print(f"{current * 100 / total:.1f}%")
 								await app.download_media(message, progress=progress)
 								print(f"Đã tải xuống: {message.document.file_name}")
-								with open('downloaded.txt', 'a') as f:
-									f.write(str(message.chat.id) + "_" + str(message.id) + '\n')
+								file_stats = os.stat('downloads/' + message.document.file_name)
+								if file_stats.st_size > 1024:
+									with open('downloaded.txt', 'a') as f:
+										f.write(str(message.chat.id) + "_" + str(message.id) + '\n')
 							else:
 								await app.download_media(message.document.file_id, file_name=message.document.file_name)
 								print(f"Đã tải xuống: {message.document.file_name}")
-								with open('downloaded.txt', 'a') as f:
-									f.write(str(message.chat.id) + "_" + str(message.id) + '\n')
+								file_stats = os.stat('downloads/' + message.document.file_name)
+								if file_stats.st_size > 1024:
+									with open('downloaded.txt', 'a') as f:
+										f.write(str(message.chat.id) + "_" + str(message.id) + '\n')
 					except AttributeError:
 						print("Tin nhắn không chứa đính kèm document")
 
@@ -36,3 +40,4 @@ async def main():
 
 if __name__ == "__main__":
 	asyncio.run(main())
+
