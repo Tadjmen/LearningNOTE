@@ -1,9 +1,14 @@
 # sImple my code python with ChatGPT helper ;Đ
 
 ## Python code
-- Get all File From a telegram Group: **Get-file-telegram.py**.
-- Get all CHATID user Telegram: **Get-all-chatid-telegram.py**.
-- Get images From Telegram and Facebook and send to Telegram, tag all User in a Group: **Get-image-to-telegram.py**.
+- **Get-file-telegram.py** ; Get all File From a telegram Group.
+- **Get-all-chatid-telegram.py** ; Get all CHATID user Telegram .
+- **Get-image-to-telegram.py** ; Get images From Telegram and Facebook and send to Telegram, tag all User in a Group .
+
+## Some code Bash Script
+
+- **Get-file-telegram.py** ; Reset teamviewer ID, Reset ID Teamviewer: hELP some guy like me use Teamviewer on Ubuntu but Teamviewer limmit Free account License.
+
 
 ## TLD.....
 - Get all Valid Two-Letter Top Level Domains:
