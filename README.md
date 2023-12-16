@@ -7,9 +7,9 @@
 
 ## Some code Bash Script
 
-- **Get-file-telegram.py** ; Reset teamviewer ID, Reset ID Teamviewer: hELP some guy like me use Teamviewer on Ubuntu but Teamviewer limmit Free account License. **Just run with sudo**
+- **reset-teamviewer-ID.sh** ; Reset teamviewer ID, Reset ID Teamviewer: hELP some guy like me use Teamviewer on Ubuntu but. **Just run with sudo**
 ```
-sudo python3 Get-file-telegram.py
+chmod +x reset-teamviewer-ID.sh && sudo reset-teamviewer-ID.sh
 ```
 
 
