@@ -1,12 +1,11 @@
-# sImple my code python with ChatGPT helper ;Đ
 
-## 
 
-**Notepad++ 64-bit:**
+# Simple Note
 
-There is an unreleased 64-bit version of this plugin. You can download the DLL from [HERE](/files/NppTextFX.dll), drop it under Notepad++/plugins/NppTextFX directory and restart Notepad++. You will need to create the NppTextFX directory first though.
+### Install NppTextFX plugin 
+**Only Notepad++ 64-bit:** There is an unreleased 64-bit version of this plugin. You can download the DLL from [HERE](/files/NppTextFX.dll), drop it under Notepad++/plugins/NppTextFX directory and restart Notepad++. You will need to create the NppTextFX directory first though.
 
-## Python code
+## sImple my code python with ChatGPT helper ;Đ
 - **Get-file-telegram.py** ; Get all File From a telegram Group.
 - **Get-all-chatid-telegram.py** ; Get all CHATID user Telegram.
 - **Get-image-to-telegram.py** ; Get images From Telegram and Facebook and send to Telegram, tag all User in a Group.
